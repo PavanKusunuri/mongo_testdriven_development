@@ -1,0 +1,16 @@
+{
+  "name": "mongo-test-driven-app",
+  "version": "1.0.0",
+  "description": "A test driven approach of building Applications with Mongo DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec 'mocha -R min'"
+  },
+  "author": "Pavan Kusunuri",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^8.1.1",
+    "mongoose": "^5.10.0",
+    "nodemon": "^2.0.4"
+  }
+}
